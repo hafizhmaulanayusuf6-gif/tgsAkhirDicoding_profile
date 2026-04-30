@@ -1,0 +1,106 @@
+* ,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f0f0f;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, button, .logo {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #2a2a2a;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-container {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #6c63ff;
+}
+
+.nav-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #a0a0a0;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 0.4rem 1rem;
+    border-radius: 999px;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.nav-list li a:hover {
+    background-color: #6c63ff;
+    color: #ffffff;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+section#beranda {
+    padding: 5rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.beranda-contents {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.beranda-description {
+    flex: 1;
+    max-width: 500px;
+}
+
+.beranda-description h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+section#tentang {
+    padding: 5rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
