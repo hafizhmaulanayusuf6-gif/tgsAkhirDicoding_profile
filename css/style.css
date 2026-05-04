@@ -137,3 +137,15 @@ section#tentang {
     align-items: center;
     justify-content: space-between;
 }
+
+.tentang-content {
+    flex: 1;
+    gap: 3rem;
+}
+
+aside {
+    background-color: #1a1a1a;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
