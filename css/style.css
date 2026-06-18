@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * ,
 *::before,
 *::after {
@@ -97,15 +101,22 @@ section#beranda {
     margin-bottom: 1rem;
 }
 
-.beranda-contents p {
+#role {
     color: #6c63ff;
     font-size: 2rem;
     font-weight: bold;
     margin-top: 5px;
 }
 
+.cerita {
+    font-size: 1.5rem;
+}
+
+.cerita {
+    color: #ffffff;
+}
+
 .beranda-contents button {
-    background-color: #0f0f0f;
     color: #ffffff;
     font-size: 18px;
     border-radius: 999px;
@@ -114,11 +125,43 @@ section#beranda {
     width: 150px;
     height: 50px;
     cursor: pointer;
-    border: none;
+    gap: 20px;
 }
 
-.beranda-contents button:hover {
-    background-color: #6c63ff
+.btn-conten {
+    display: flex;
+    gap: 25px;
+}
+
+.btn-tentang {
+    background-color: #6c63ff;
+    border: none;
+    transition: transform 0.1s ease;
+}
+
+.btn-tentang a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn-contact {
+    background-color: #0f0f0f;
+    border: 2px solid #6c63ff;
+    transition: transform 0.1s ease;
+}
+
+.btn-contact a {
+    text-decoration: none;
+    color: #6c63ff;
+    
+}
+
+.btn-tentang:hover {
+    transform: translateY(-6px);
+}
+
+.btn-contact:hover {
+    transform: translateY(-6px);
 }
 
 .beranda-img img {
