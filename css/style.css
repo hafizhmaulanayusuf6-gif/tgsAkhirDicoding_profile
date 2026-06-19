@@ -235,6 +235,26 @@ article p {
     font-size: 25px;
 }
 
+.sosial-media {
+    display: flex;
+    align-items: start;
+    gap: 3rem;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.sosial-media a {
+    color: #a0a0a0;
+    font-size: 2.5rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.sosial-media a:hover {
+    color: #6c63ff;
+    transform: translateY(-5px);
+}
+
 section#tech-stack_project {
     min-height: calc(100vh - 70px);
     padding: 3rem 1rem;
@@ -446,6 +466,15 @@ footer {
 
     article p {
         font-size: 18px !important;
+    }
+
+    .sosial-media {
+    gap: 1.5rem;
+        justify-content: center;
+    }
+    
+    .sosial-media a {
+        font-size: 2rem;
     }
 
     /*Penataan Kontainer Project (Kunci Utama Agar Tidak Rusak)*/
